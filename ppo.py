@@ -180,7 +180,7 @@ class PPO_Agent:
 
     # threshold reduce
     def update_threshold(self):
-        threshold = self.threshold_base * exp(-self.attenuation_factor * (self.learn_step + 1))
+        threshold = self.threshold_base * exp(-self.attenuation_factor * self.learn_step)
         # print(f"ra_threshold{threshold}")
         return threshold
 
