@@ -11,7 +11,7 @@ device = 'cpu'
 import torch
 import torch.nn.functional as F
 import torch.nn as nn
-from utils.model import Actor, Critic, Buffer
+from utils import Actor, Critic, Buffer
 
 # An agent example containing key process
 class PPO_Agent:
