@@ -2,7 +2,8 @@ The Implementation of A Modified Multi-agent Proximal Policy Optimization Algori
 
 > New perspective of partial-re-entrance and idle energy consumption (IEC):
 ![image](dynamicIEC.jpg)
-Partial-re-entrance:
+
+>Partial-re-entrance:
 
 Layer1: K1->K2->
 
@@ -10,7 +11,7 @@ Layer2: K2->K3->
 
 Layer3: K3.
 
-Dynamic IEC calculation:
+>Dynamic IEC calculation:
 In the static scheduling scenario, the shutdown time for machine 5 in case 1 is 177. However, in the reactive dynamic scheduling scenario, the shutdown time for machine 5 should be at
 moment 276 when the final operation, namely layer 3 of job 3 at stage 3, starts processing on machine 4. In case 2, after the final operation starts processing, machine 5 still has an operation in progress, thus the shutdown time for machine 5 in case 2 is 247. Compared to case 2, case 1 incurs a higher calculation of the IEC of machine 5. To sum up, reactive dynamic scheduling highlights the challenges of machine standby management.
 
