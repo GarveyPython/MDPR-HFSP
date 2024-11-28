@@ -1,7 +1,10 @@
 The Implementation of A Modified Multi-agent Proximal Policy Optimization Algorithm For Multi-objective Dynamic Partial-re-rentrant Hybrid Flow Shop Scheduling Problem published in EAAI
+
 > The training and testing dataset can be found in train_data/ and test_data/
 
-> The designed key process of PPO and adaptive trust region clipping can be found in agent.py.\
+> The designed key process of PPO and adaptive trust region clipping can be found in agent.py.
+
+> The configured weights can be found in objective_weights.txt.
 
 > Paper citation:
 
